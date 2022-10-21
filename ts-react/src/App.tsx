@@ -26,6 +26,7 @@ function App() {
     }
   }
   //useReducer is a hook that takes a reducer function and an initial state and returns a state and a dispatch function
+  // useReducer returns a state and a dispatch function
   const [todos, dispatch] = useReducer(reducer,[]);
 
   const newToDoRef = useRef<HTMLInputElement>(null);

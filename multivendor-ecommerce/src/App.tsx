@@ -1,5 +1,5 @@
-import './App.css';
-import { TheLayout } from './views/pages/TheLayout';
+import "./App.css";
+import { TheLayout } from "./views/pages/TheLayout";
 
 function App() {
   return (
@@ -10,4 +10,3 @@ function App() {
 }
 
 export default App;
- 
